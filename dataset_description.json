@@ -1,7 +1,7 @@
 {
     "Name": "Human electroencephalography recordings from 50 subjects for 22,248 images from 1,854 object concepts",
     "BIDSVersion": "1.0.2",
-    "License": "",
+    "License": "CC0",
     "Authors": [
         "Grootswagers, Tijl",
         "Zhou, Ivy",
@@ -9,5 +9,12 @@
         "Carlson, Thomas"
     ],
     "Acknowledgements": "The authors acknowledge the University of Sydney HPC service for providing High Performance Computing resources.",
-    "Funding": ["ARC DP160101300 (TAC)", "ARC DP200101787 (TAC)", "ARC DE200101159 (AKR)"]
+    "Funding": [
+        "ARC DP160101300 (TAC)",
+        "ARC DP200101787 (TAC)",
+        "ARC DE200101159 (AKR)"
+    ],
+    "ReferencesAndLinks": [
+        "https://doi.org/10.17605/OSF.IO/HD6ZK"
+    ]
 }
