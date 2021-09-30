@@ -1,0 +1,23 @@
+{
+	"onset":{"Description":"onset of event"},
+	"duration":{"Description":"event duration in ms"},
+	"eventnumber":{"Description":"the event number"},
+	"blocksequencenumber":{"Description":"the sequence number divided into 12 blocks (0-11 for the 12 images per concept)"},
+	"isteststim":{"Description":"whether the sequence was presenting validation images (at the end of exp)"},
+	"object":{"Description":"name of the object concept (from the THINGS database)"},
+	"objectnumber":{"Description":"concept number (from the THINGS database, mapped to 0-1853)"},
+	"presentationnumber":{"Description":"trial number in the experiment"},
+	"sequencenumber":{"Description":"sequence number in the experiment"},
+	"stim":{"Description":"stimulus path"},
+	"stimnumber":{"Description":"within-concept image number (0-11)"},
+	"teststimnumber":{"Description":"stimulus number in the validation image set (0-199)"},
+	"withinsequencenumber":{"Description":"presentation number within the stream"},
+	"istarget":{"Description":"1 when subject was supposed to respond (fixation colour change)"},
+	"stimname":{"Description":"stimulus name"},
+	"response":{"Description":"1 when the response button was pressed"},
+	"rt":{"Description":"time of response, seconds (s) relative to last target event (note: this value is calculated once per screen refresh, and thus not very accurate)"},
+	"correct":{"Description":"1 for correct and timely fixation change detection response"},
+	"time_stimon":{"Description":"stimulus onset time (s), relative to experiment start"},
+	"time_stimoff":{"Description":"stimulus offset time (s), relative to experiment start"},
+	"stimdur":{"Description":"stimulus duration (s)"}
+}

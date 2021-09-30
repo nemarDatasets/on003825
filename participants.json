@@ -1,0 +1,10 @@
+{
+	"participant_id":{"Description":"participant number"},
+	"age":{"Description":"participant age in years at time of acquisition"},
+	"gender":{"Description":"participant self-reported gender (M:Male, F:Female)"},
+	"native_english":{"Description":"Whether the participant was a native English speaker"},
+	"language_profile":{"Description":"Number of languages spoken"},
+	"language_spoken_at_home":{"Description":"Language spoken at home"},
+	"exclude":{"Description":"1 for suggested exclusion of participant due to very poor signal or missing data"},
+	"note_IZ":{"Description":"Experimenter notes"}
+}
