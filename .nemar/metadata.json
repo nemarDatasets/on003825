@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Human electroencephalography recordings from 50 subjects for 22,248 images from 1,854 object concepts",
+  "description": "This dataset comprises human electroencephalography (EEG) recordings from 50 subjects viewing 22,248 images representing 1,854 object concepts from the THINGS stimulus database. Participants performed rapid serial visual presentation (RSVP) at 10 Hz while performing an orthogonal fixation color change detection task. The dataset provides neural responses to a large-scale, systematically organized set of visual stimuli, enabling investigation of object representation in the human brain.",
+  "methods_description": "EEG recordings were acquired during rapid serial visual presentation of images at 10 Hz. Participants performed an orthogonal fixation color change detection task while viewing images from the THINGS stimulus database. Each experimental session lasted approximately 1 hour.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,58 +13,6 @@
     "Hebart, Martin": {},
     "Carlson, Thomas": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds003825.v1.1.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on003825",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003825",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "funding_references": [
-    {
-      "funder_name": "Australian Research Council",
-      "award_number": "DP160101300"
-    },
-    {
-      "funder_name": "Australian Research Council",
-      "award_number": "DP200101787"
-    },
-    {
-      "funder_name": "Australian Research Council",
-      "award_number": "DE200101159"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "59.2 GB (303 files)"
-  ],
-  "formats": [
-    ".csv",
-    ".eeg",
-    ".fdt",
-    ".json",
-    ".mat",
-    ".set",
-    ".tsv",
-    ".vhdr",
-    ".vmrk",
-    ".yml"
-  ],
-  "description": "This dataset comprises human electroencephalography (EEG) recordings from 50 subjects viewing 22,248 images representing 1,854 object concepts from the THINGS stimulus database. Participants performed a rapid serial visual presentation task at 10 Hz while concurrently performing an orthogonal fixation color change detection task. The dataset provides neural responses to a large and diverse set of visual stimuli, enabling investigation of object representation in the human brain.",
-  "methods_description": "EEG recordings were collected during rapid serial visual presentation of images at 10 Hz. Participants performed an orthogonal fixation color change detection task while viewing the stimuli. Each experimental session lasted approximately 1 hour.",
   "keywords": [
     {
       "term": "Electroencephalography",
@@ -81,23 +31,62 @@
       "term": "object recognition"
     },
     {
-      "term": "Rapid Serial Visual Presentation"
-    },
-    {
-      "term": "RSVP"
+      "term": "rapid serial visual presentation"
     },
     {
       "term": "neural representation"
-    },
-    {
-      "term": "THINGS database"
-    },
-    {
-      "term": "object representation"
-    },
-    {
-      "term": "object concepts"
     }
   ],
-  "source_hash": "2664762ababe49a4ea826bde02e9d7923435526413d81978c1b55f5ee21b7d83"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on003825",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003825",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003825.v1.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Australian Research Council",
+      "award_number": "DP160101300"
+    },
+    {
+      "funder_name": "Australian Research Council",
+      "award_number": "DP200101787"
+    },
+    {
+      "funder_name": "Australian Research Council",
+      "award_number": "DE200101159"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "59.2 GB (303 files)"
+  ],
+  "formats": [
+    ".csv",
+    ".eeg",
+    ".fdt",
+    ".json",
+    ".mat",
+    ".md",
+    ".set",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "source_hash": "8d12172627a7d6230c0bb49c4b53eeafe77f3abde78cf8ca79484274d272457f"
 }
