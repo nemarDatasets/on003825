@@ -1,3 +1,4 @@
 derivatives/
 stimuli/
 *.csv
+.nemar/
