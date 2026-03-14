@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Human electroencephalography recordings from 50 subjects for 22,248 images from 1,854 object concepts",
-  "description": "This dataset comprises human electroencephalography (EEG) recordings from 50 subjects viewing 22,248 images representing 1,854 object concepts from the THINGS stimulus database. Participants performed rapid serial visual presentation (RSVP) at 10 Hz while performing an orthogonal fixation color change detection task. The dataset provides neural responses to a large-scale, systematically organized set of visual stimuli, enabling investigation of object representation in the human brain.",
-  "methods_description": "EEG recordings were acquired during rapid serial visual presentation of images at 10 Hz. Participants performed an orthogonal fixation color change detection task while viewing images from the THINGS stimulus database. Each experimental session lasted approximately 1 hour.",
+  "description": "This dataset comprises human electroencephalography (EEG) recordings from 50 subjects viewing 22,248 images representing 1,854 object concepts from the THINGS stimulus database. Participants performed a rapid serial visual presentation task at 10 Hz while concurrently performing an orthogonal fixation color change detection task, with each experimental session lasting approximately one hour. The dataset provides neural responses to a large and diverse set of visual stimuli, enabling investigation of object representation and visual processing in the human brain.",
+  "methods_description": "EEG recordings were acquired from 50 subjects during rapid serial visual presentation of images at 10 Hz. Participants performed an orthogonal fixation color change detection task while viewing images from the THINGS stimulus database representing 1,854 object concepts (22,248 images total). Each experimental session lasted approximately 1 hour.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
