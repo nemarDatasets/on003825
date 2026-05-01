@@ -1,0 +1,40 @@
+Stimuli for on003825 (Grootswagers et al. 2022 THINGS-EEG)
+==========================================================
+
+The 22,248 images referenced by each subject's events.tsv come from the
+THINGS image database (Hebart et al. 2019). They are NOT bundled with
+this BIDS dataset because the THINGS image archive is licensed for
+research / non-commercial use and may not be redistributed without
+explicit consent of the copyright owners.
+
+How to populate this folder
+---------------------------
+Acquire `images_THINGS.zip` directly from the canonical THINGS project on
+OSF: https://osf.io/jum2f/ (file guid `rdxy2`, ~5 GB). The unzip password
+is published alongside the archive at https://osf.io/j6a3m. Unpack so the
+final layout matches the events.tsv `stim_file` references:
+
+    stimuli/
+      <concept>/
+        <concept>_<NN><b|n|s>.jpg     # 12 examples per concept × 1854 concepts
+      stim-things_image.json          # BIDS stimulus sidecar
+      README
+
+After unpacking, run `python code/smoke_test.py` from the dataset root to
+confirm every events.tsv `stim_file` resolves to an existing image.
+
+License
+-------
+The THINGS image-database license (https://osf.io/52wrx/download) limits
+use to research / non-commercial purposes and forbids redistribution
+without consent of the copyright owners.
+
+Citations
+---------
+- Grootswagers, T., Zhou, I., Robinson, A., Hebart, M., & Carlson, T.
+  (2022). Human electroencephalography recordings from 50 subjects for
+  22,248 images from 1,854 object concepts. Data in Brief.
+  https://doi.org/10.18112/openneuro.ds003825.v1.1.0
+- Hebart, M.N. et al. (2019). THINGS: A database of 1,854 object concepts
+  and more than 26,000 naturalistic object images.
+  PLoS ONE 14(10): e0223792. https://doi.org/10.1371/journal.pone.0223792

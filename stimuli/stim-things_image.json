@@ -1,0 +1,18 @@
+{
+  "Description": "Object images presented during the rapid serial visual presentation task. 22,248 distinct images covering 1,854 object concepts, drawn from the THINGS image database (Hebart et al. 2019).",
+  "License": "Research / non-commercial use only. Redistribution requires consent of the original image copyright owners. See https://osf.io/52wrx/download for the full license text.",
+  "Copyright": "Image copyright belongs to the original photographers. The THINGS curators provide the archive under a fair-use research license.",
+  "URL": "https://osf.io/jum2f/",
+  "Source": {
+    "OSF": {
+      "ProjectURL": "https://osf.io/jum2f/",
+      "FileGuid": "rdxy2",
+      "FileName": "images_THINGS.zip",
+      "PasswordFileGuid": "j6a3m",
+      "SizeBytes": 5022473688
+    }
+  },
+  "References": [
+    "Hebart, M.N. et al. (2019). THINGS: A database of 1,854 object concepts and more than 26,000 naturalistic object images. PLoS ONE 14(10): e0223792. https://doi.org/10.1371/journal.pone.0223792"
+  ]
+}

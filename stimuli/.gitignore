@@ -1,0 +1,4 @@
+# Local download cache (the upstream THINGS zip used to populate this folder).
+_cache/
+.extracted
+images_THINGS.zip
