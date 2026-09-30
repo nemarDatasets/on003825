@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Human electroencephalography recordings from 50 subjects for 22,248 images from 1,854 object concepts",
-  "description": "This dataset comprises human electroencephalography recordings from 50 subjects viewing 22,248 images representing 1,854 object concepts from the THINGS stimulus database. Participants performed rapid serial visual presentation at 10 Hz while performing an orthogonal fixation color change detection task. The dataset provides neural responses to a large-scale, systematically organized set of visual stimuli, enabling investigation of object representation in the human brain.",
-  "methods_description": "EEG recordings were acquired during rapid serial visual presentation (RSVP) of images at 10 Hz. Participants performed an orthogonal fixation color change detection task while viewing stimuli. Total experiment duration was approximately 1 hour per subject.",
+  "description": "Electroencephalography recordings from 50 participants viewing 22,248 images spanning 1,854 object concepts from the THINGS database. Images were shown in rapid serial visual presentation streams at 10 Hz while participants performed an orthogonal fixation colour change detection task. The dataset supports research on the temporal dynamics of object recognition and visual representation in the human brain.",
+  "methods_description": "Images from the THINGS database were presented in rapid serial visual presentation streams at 10 Hz. Participants performed an orthogonal fixation colour change detection task during the roughly 1-hour EEG session. Stimulus images are not bundled and must be obtained separately from the THINGS OSF project.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,17 +15,7 @@
   },
   "keywords": [
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
       "term": "EEG"
-    },
-    {
-      "term": "Visual Perception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
     },
     {
       "term": "object recognition"
@@ -34,10 +24,17 @@
       "term": "rapid serial visual presentation"
     },
     {
-      "term": "neural representation"
+      "term": "THINGS database"
     },
     {
-      "term": "THINGS database"
+      "term": "Visual Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
@@ -47,14 +44,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003825",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds003825.v1.1.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003825",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -76,7 +73,7 @@
     "eeg"
   ],
   "sizes": [
-    "64.3 GB (26410 files)"
+    "59.92 GB (26410 files)"
   ],
   "formats": [
     ".csv",
