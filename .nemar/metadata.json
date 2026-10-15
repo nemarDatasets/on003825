@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Human electroencephalography recordings from 50 subjects for 22,248 images from 1,854 object concepts",
-  "description": "Electroencephalography recordings from 50 participants viewing 22,248 images spanning 1,854 object concepts from the THINGS database. Images were shown in rapid serial visual presentation streams at 10 Hz while participants performed an orthogonal fixation colour change detection task. The dataset supports research on the temporal dynamics of object recognition and visual representation in the human brain.",
-  "methods_description": "Images from the THINGS database were presented in rapid serial visual presentation streams at 10 Hz. Participants performed an orthogonal fixation colour change detection task during the roughly 1-hour EEG session. Stimulus images are not bundled and must be obtained separately from the THINGS OSF project.",
+  "description": "Electroencephalography recordings from 50 participants viewing 22,248 images spanning 1,854 object concepts from the THINGS image database. Images were shown in rapid serial visual presentation streams at 10 Hz while participants performed an orthogonal fixation colour-change detection task. The dataset supports research on the temporal dynamics of object recognition and visual representation in the human brain.",
+  "methods_description": "Images from the THINGS database were presented in rapid serial visual presentation streams at a 10 Hz rate. Participants performed an orthogonal fixation colour change detection task. Each recording session lasted about 1 hour.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -27,14 +27,7 @@
       "term": "THINGS database"
     },
     {
-      "term": "Visual Perception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "visual perception"
     }
   ],
   "related_identifiers": [
@@ -91,5 +84,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "84e2fcc0c448ca9b8d6c70e73d45df2c2c23a19f873109433296d90cd47c878f"
+  "source_hash": "885c7ce709b190c089edd48b0ab1895a1dd742a86e8bc411aad6d6631ca3b919"
 }
