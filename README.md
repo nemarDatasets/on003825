@@ -8,25 +8,14 @@ Experiment length: 1 hour
 
 ## Stimuli
 
-The 22,248 stimulus images are NOT bundled with this BIDS dataset: the
-THINGS image archive (Hebart et al. 2019) is licensed for research /
-non-commercial use and may not be redistributed without consent of the
-copyright owners. Acquire the archive directly from the canonical OSF
-project (https://osf.io/jum2f/, file `images_THINGS.zip`, ~5 GB,
-password documented at osf.io/j6a3m), and unpack it under
-`stimuli/<concept>/<file>.jpg`.
+The stimulus images are included in this dataset under `stimuli/<concept>/<file>.jpg`: the 26,107 images of the
+THINGS image database (Hebart et al. 2019; 1,854 concepts), of which the events of the 50 participants use 22,448
+distinct images. They are redistributed here with permission obtained by the NEMAR curator of this dataset (Bruno Aristimunha) for the THINGS image database, whose licence otherwise forbids redistribution without the consent of the copyright owners. Use of the images remains limited to research and education (THINGS licence,
+https://osf.io/52wrx/download); the images are not covered by this dataset's licence.
 
-Once the images are in place, every events.tsv `stim_file` column entry
-resolves to a real file. Two helpers are provided:
-
-```bash
-# 1) one-off normalisation: rewrites events.tsv to BIDS-canonical form
-#    (adds stim_file, drops stim/stimname, converts onset/duration to seconds)
-python code/normalize_events_to_bids.py
-
-# 2) sanity check after stimuli are placed
-python code/smoke_test.py
-```
+The `stim` column of every `*_events.tsv` gives the image path relative to the dataset root (for example
+`stimuli/carousel/carousel_11s.jpg`), and `stimname` its file name; all 22,448 paths resolve to a file under
+`stimuli/`. `code/smoke_test.py` checks this on a local copy, and `code/align_stimuli.py` maps events rows to paths:
 
 ```python
 import pandas as pd
@@ -37,5 +26,4 @@ events = pd.read_csv('sub-01/eeg/sub-01_task-rsvp_events.tsv', sep='\t')
 paths = aligner.paths_for_events(events)   # list[Path | None]
 ```
 
-See `stimuli/README` for the license terms and `stimuli/stim-things_image.json`
-for the BIDS stimulus sidecar.
+See `stimuli/README` for the licence terms and `stimuli/stim-things_image.json` for the BIDS stimulus sidecar.

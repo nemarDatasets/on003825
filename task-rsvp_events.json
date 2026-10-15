@@ -17,7 +17,7 @@
     "Description": "Concept name from THINGS, e.g. 'carousel'."
   },
   "stim": {
-    "Description": "Path of the stimulus image relative to the dataset root, e.g. 'stimuli/carousel/carousel_11s.jpg'. Forward slashes. The image archive is provided separately under the THINGS license."
+    "Description": "Path of the stimulus image relative to the dataset root, e.g. 'stimuli/carousel/carousel_11s.jpg'. Forward slashes. The image is included in this dataset at that path (THINGS licence, see stimuli/README)."
   },
   "stimname": {
     "Description": "Bare filename of the stimulus image."

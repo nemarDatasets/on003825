@@ -1,4 +1,22 @@
-1.1.0 2021-10-01
+1.0.2 2026-10-15
+  - README section 'Stimuli', stimuli/README, stimuli/stim-things_image.json and the stim description in
+    task-rsvp_events.json: the THINGS images are included (26,107 images under stimuli/<concept>/, added in 1.0.1; the
+    events use 22,448 of them), redistributed with permission; the text said they were not bundled. The column that
+    gives the image path is `stim` (the text named a `stim_file` column that the events do not have).
+  - dataset_description.json: Version 1.0.1 -> 1.0.2.
+
+1.0.1 2026-05-01
+  - Added the THINGS images under stimuli/<concept>/ (26,107 files, git-annex), stimuli/README and
+    stimuli/stim-things_image.json, code/align_stimuli.py,
+    code/normalize_events_to_bids.py and code/smoke_test.py, and a README section 'Stimuli'.
+  - events.tsv (50 files): onset and duration converted from milliseconds to seconds; stim paths use forward slashes.
+  - task-rsvp_events.json: every events column described, with units.
+  - dataset_description.json: Version 1.0.0 -> 1.0.1.
+
+1.0.0 2026-03-14
+  - NEMAR import of OpenNeuro ds003825 1.1.0 (SourceDatasets). Its history:
+
+OpenNeuro ds003825 1.1.0 2021-10-01
   - update information
-1.0.0 2021-10-01
+OpenNeuro ds003825 1.0.0 2021-10-01
   - initial version

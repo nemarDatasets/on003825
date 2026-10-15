@@ -1,6 +1,6 @@
 {
-  "Description": "Object images presented during the rapid serial visual presentation task. 22,248 distinct images covering 1,854 object concepts, drawn from the THINGS image database (Hebart et al. 2019).",
-  "License": "Research / non-commercial use only. Redistribution requires consent of the original image copyright owners. See https://osf.io/52wrx/download for the full license text.",
+  "Description": "Object images of the THINGS image database (Hebart et al. 2019): 26,107 images of 1,854 object concepts, included under stimuli/<concept>/. The rapid serial visual presentation task used 22,448 of them (the events' stim column).",
+  "License": "THINGS image-database licence (https://osf.io/52wrx/download): research and educational use only; commercial use, further redistribution or modification require consent of the image copyright owners. Redistributed in this dataset with permission obtained by its NEMAR curator. Not covered by the dataset licence.",
   "Copyright": "Image copyright belongs to the original photographers. The THINGS curators provide the archive under a fair-use research license.",
   "URL": "https://osf.io/jum2f/",
   "Source": {

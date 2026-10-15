@@ -1,33 +1,28 @@
 Stimuli for on003825 (Grootswagers et al. 2022 THINGS-EEG)
 ==========================================================
 
-The 22,248 images referenced by each subject's events.tsv come from the
-THINGS image database (Hebart et al. 2019). They are NOT bundled with
-this BIDS dataset because the THINGS image archive is licensed for
-research / non-commercial use and may not be redistributed without
-explicit consent of the copyright owners.
-
-How to populate this folder
----------------------------
-Acquire `images_THINGS.zip` directly from the canonical THINGS project on
-OSF: https://osf.io/jum2f/ (file guid `rdxy2`, ~5 GB). The unzip password
-is published alongside the archive at https://osf.io/j6a3m. Unpack so the
-final layout matches the events.tsv `stim_file` references:
+This folder holds the 26,107 images of the THINGS image database (Hebart et al. 2019), one folder per
+concept (1,854 concepts):
 
     stimuli/
       <concept>/
-        <concept>_<NN><b|n|s>.jpg     # 12 examples per concept × 1854 concepts
+        <concept>_<NN><b|n|s>.jpg
       stim-things_image.json          # BIDS stimulus sidecar
       README
 
-After unpacking, run `python code/smoke_test.py` from the dataset root to
-confirm every events.tsv `stim_file` resolves to an existing image.
+The events of the 50 participants use 22,448 distinct images; the `stim` column of every events.tsv gives the path
+relative to the dataset root and all of them resolve here. They are redistributed here with permission obtained by the NEMAR curator of this dataset (Bruno Aristimunha) for the THINGS image database, whose licence otherwise forbids redistribution without the consent of the copyright owners.
+
+The same archive is distributed by the THINGS project on OSF (https://osf.io/jum2f/, `images_THINGS.zip`, password
+at https://osf.io/j6a3m). `python code/smoke_test.py` from the dataset root checks that every events.tsv path
+resolves to an image.
 
 License
 -------
-The THINGS image-database license (https://osf.io/52wrx/download) limits
-use to research / non-commercial purposes and forbids redistribution
-without consent of the copyright owners.
+The THINGS image-database licence (https://osf.io/52wrx/download) limits
+use to research / educational purposes and forbids commercial use and
+further redistribution or modification without consent of the copyright
+owners. The images are not covered by this dataset's licence.
 
 Citations
 ---------
